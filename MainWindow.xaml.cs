@@ -155,40 +155,6 @@ namespace DualAudioShare
             }
         }
 
-        //private void VolumeSlider_ValueChanged(object sender,
-        //                                       RoutedPropertyChangedEventArgs<double> e)
-        //{
-        //    if (!IsLoaded || VolumeLabel == null || _router == null)
-        //        return;
-
-        //    var vol = (float)e.NewValue;
-        //    _router.Volume = vol;
-        //    VolumeLabel.Text = $"{(int)(vol * 100)}%";
-        //}
-
-        //private void SourceVolumeSlider_ValueChanged(object sender,
-        //                                     RoutedPropertyChangedEventArgs<double> e)
-        //{
-        //    // Ignore events during initialization
-        //    if (!IsLoaded || SourceVolumeLabel == null)
-        //        return;
-
-        //    var srcDev = SourceDeviceCombo.SelectedItem as MMDevice;
-        //    if (srcDev == null)
-        //        return;
-
-        //    float vol = (float)e.NewValue;
-
-        //    try
-        //    {
-        //        srcDev.AudioEndpointVolume.MasterVolumeLevelScalar = vol;
-        //        SourceVolumeLabel.Text = $"{(int)(vol * 100)}%";
-        //    }
-        //    catch
-        //    {
-        //        SourceVolumeLabel.Text = "N/A";
-        //    }
-        //}
         private void SourceDeviceCombo_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             if (!IsLoaded || SourceVolumeSlider == null || SourceVolumeLabel == null)
