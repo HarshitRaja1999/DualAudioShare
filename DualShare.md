@@ -10,7 +10,7 @@ It’s inspired by “sound sharing” features found in OEM audio suites (like 
 
 ## **✨ Demo**
 
-<figure class="image"><img style="aspect-ratio:819/503;" src="DualShare.md_image.png" width="819" height="503"></figure>
+<figure class="image"><img style="aspect-ratio:819/503;" src="DualShare_image.png" width="819" height="503"></figure>
 
 * * *
 
